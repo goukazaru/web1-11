@@ -10,8 +10,8 @@ if(answer === number) {
  }else if (number < answer){
   message = '残念！もっと小さいです';
  }else{
-  message = '0～3の数字を入力してください'；
- ｝
- 
+  message = '0～3の数字を入力してください';
+ }
+
  //結果を表示
  document.getElementById('choice').textContent = message;
